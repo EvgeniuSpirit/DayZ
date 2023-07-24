@@ -21,5 +21,12 @@ public class DayZ {
             else
                 return false;
         }
+    public static boolean isLeapYea(int year) {
+        if (year%4 == 0 && year%400 ==0){
+            return true;
+        }
+        else
+            return false;
+    }
     }
 
