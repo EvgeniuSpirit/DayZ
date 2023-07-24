@@ -12,7 +12,6 @@ public class DayZ {
             System.out.println("Пьем 13.09." + year);
         }
     }
-
     public static boolean isLeapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0) {
             return true;
