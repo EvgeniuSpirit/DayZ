@@ -6,7 +6,6 @@ public class DayZ {
             System.out.println("Введите год:");
             int year = scanner.nextInt();
 
-
             if (isLeapYear(year)) {
                 System.out.println("Пьем 12.09." + year);
                 // здесь нужно вывести результат
@@ -19,7 +18,7 @@ public class DayZ {
             if (year%4 == 0 && year%400 ==0){
                 return true;
             }
-            else     // здесь нужно определить, является ли переданный год високосным
+            else
                 return false;
         }
     }
